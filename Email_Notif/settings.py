@@ -7,7 +7,7 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 # See https://docs.djangoproject.com/en/4.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = 'django-insecure-u(^($yxn71c&3j5*g(+$fbldvjfa^mhqpo0_j5zhx8e+*f11(#'
+SECRET_KEY = '---------------------------------------------------------'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -67,7 +67,7 @@ DATABASES = {
         'ENGINE': 'mysql.connector.django',
         'NAME': 'email_notif',
         'USER': 'root',
-        'PASSWORD': 'amir30070@',
+        'PASSWORD': '---------',
         'HOST': 'localhost',  # Or an IP Address that your DB is hosted on
         'PORT': '3306',
     }
@@ -118,7 +118,7 @@ EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
 EMAIL_HOST = 'smtp.gmail.com'
 EMAIL_USE_TLS = True
 EMAIL_PORT = 587
-EMAIL_HOST_USER = 'tests.notif.project@gmail.com'
-EMAIL_HOST_PASSWORD = 'ugck stkk uiav nraj'
+EMAIL_HOST_USER = '--------------'
+EMAIL_HOST_PASSWORD = '---------------'
 
 
